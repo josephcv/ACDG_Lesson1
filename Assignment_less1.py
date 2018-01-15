@@ -34,12 +34,13 @@ last_nm= input("Enter your last name")
 print(last_nm, first_nm)
 
 
-# In[4]:
+# In[1]:
 
 
 # Calculate volume of a sphere
 
-radius = 12
+diameter = 12
+radius=diameter/2
 pi = 3.14
 
 Vol = 4/3 * pi * radius**3
